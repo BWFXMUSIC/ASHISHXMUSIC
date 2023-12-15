@@ -10,13 +10,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ [❤‍🔥ᴅɪʟ❤‍🔥] 🥺",
+                text="⛩️𝐀ᴅᴅ ᴍᴜsɪᴄ 𝐁σт⛩️",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="❣️ʜᴇʟᴩ❣️",
+                text="🍧ʜᴇʟᴩ🍧",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -25,16 +25,16 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💖 ғᴇᴇʟɪɴɢs 💖", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+                text="💌𝗦ԩ𝐚ʏя𝗼༌🪽", url=f"https://t.me/SHAYRI_CHANNEL1"),
             InlineKeyboardButton(
-                text="🥰 ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️] 🥰", url=f"https://t.me/aarohi_ki_duniya"
+                text="🍒‌⃰‌˶‌֟፝ᴄʜᴀɴɴᴇʟ⏎‌🝛꯭🧸", url=f"https://t.me/MUSICBOT_OWNER"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[ᴅɪʟ]💝", user_id=OWNER),
+                text="👑 ᴍᴀɪɴᴛᴀɪɴᴇʀ 👑", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]🥰", url=config.SUPPORT_GROUP
+                text="💒ʙωғ sᴜᴩᴩᴏʀᴛ💒", url=f"https://t.me/BWF_MUSIC1"
             ),
         ],
      ]
@@ -45,31 +45,31 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ [💞ᴅɪʟ💞]🥺",
+                text="⛩️𝐀ᴅᴅ ᴍᴜsɪᴄ 𝐁σт⛩️",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥺ʜᴇʟᴩ🥺", callback_data="settings_back_helper"
+                text="🍧ʜᴇʟᴩ🍧", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💖 ғᴇᴇʟɪɴɢs 💖", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+                text="💌𝗦ԩ𝐚ʏя𝗼༌🪽", url=f"https://t.me/SHAYRI_CHANNEL1"),
             InlineKeyboardButton(
-                text="🥰 ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️] 🥰", url=f"https://t.me/aarohi_ki_duniya"
+                text="🍒‌⃰‌˶‌֟፝ᴄʜᴀɴɴᴇʟ⏎‌🝛꯭🧸", url=f"https://t.me/MUSICBOT_OWNER"
             ),
         ],
         [
-            InlineKeyboardButton(text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[ᴅɪʟ]💝", user_id=OWNER),
+            InlineKeyboardButton(text="👑 ᴍᴀɪɴᴛᴀɪɴᴇʀ 👑", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]🥰", url=config.SUPPORT_GROUP
+                text="💒ʙωғ sᴜᴩᴩᴏʀᴛ💒", url=f"https://t.me/BWF_MUSIC1"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="🥺 ᴏᴡɴᴇʀ 🥺", url=f"https://t.me/HONEY_SINGH_121"
+                    text="[🥀✨➪ 𝐎ωиєя ⏎】", url=f"https://t.me/L2R_KING0"
                 )
         ],
      ]
